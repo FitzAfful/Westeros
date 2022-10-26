@@ -11,24 +11,27 @@ struct HouseDetailView: View {
     @ObservedObject var viewModel: HouseViewModel
 
     var body: some View {
-        VStack {
-            if let name = viewModel.name, let words = viewModel.words {
-                HouseTitleRow(title: name, words: words)
-            }
 
-            ZStack{
-                GeometryReader { geometry in
-                    Image("houseBackground")
-                        .scaledToFill()
+        ZStack{
+            GeometryReader { geometry in
+                Image("houseBackground")
+                    .scaledToFill()
+
+                VStack {
+                    if let name = viewModel.name,
+                       let words = viewModel.words,
+                       let image = viewModel.image {
+                        HouseTitleRow(title: name, words: words, image: image)
+                    }
 
                     ScrollView (.vertical, showsIndicators: false) {
                         Group {
 
-                            if let region = viewModel.region {
+                            if let region = viewModel.region, !region.isEmpty {
                                 HouseDetailRow(key: "Region", value: region)
                             }
 
-                            if let coatOfArms = viewModel.coatOfArms {
+                            if let coatOfArms = viewModel.coatOfArms, !coatOfArms.isEmpty {
                                 HouseDetailRow(key: "Coat of Arms", value: coatOfArms)
                             }
                         }
@@ -88,8 +91,9 @@ struct HouseDetailView: View {
                     .frame(height: geometry.size.height)
                     .padding()
                 }
-                .edgesIgnoringSafeArea(.all)
+                .padding(.top, 55)
             }
+            .edgesIgnoringSafeArea(.all)
         }
     }
 }
@@ -97,14 +101,22 @@ struct HouseDetailView: View {
 struct HouseTitleRow: View {
     var title: String
     var words: String
+    var image: String
 
     var body: some View {
         VStack(spacing: 0) {
-            Text(title)
-                .defaultGOTFont(color: .darkBlue, size: 30)
-                .multilineTextAlignment(.center)
+            Image(image)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 90, height: 90, alignment: .center)
+                .padding(.bottom)
 
-            if words.isEmpty {
+            Text(title)
+                .defaultGOTFont(color: .darkBlue, size: 28)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+
+            if !words.isEmpty {
                 Text(words)
                     .font(.body.smallCaps())
                     .foregroundColor(.gray)
@@ -143,7 +155,7 @@ struct WhiteRoundedRectangleBackground: ViewModifier {
             .frame(maxWidth: .infinity, alignment: .center)
             .background(
                 RoundedRectangle(cornerRadius: 10)
-                    .fill(.white)
+                    .fill(.white.opacity(0.7))
             )
             .padding(.bottom, 8)
     }

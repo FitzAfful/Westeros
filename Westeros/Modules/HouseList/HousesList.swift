@@ -63,17 +63,25 @@ struct HouseRow: View {
     var house: House
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            Text(house.name)
-                .lineLimit(1)
-                .font(.title3)
-            Spacer()
-                .frame(height: 2)
+        HStack {
 
-            Text(house.region)
-                .lineLimit(1)
-                .font(.body)
-                .foregroundColor(.gray)
+            Image(house.getImage())
+                .resizable()
+                .scaledToFill()
+                .frame(width: 50, height: 50)
+
+            VStack(alignment: .leading) {
+                Text(house.name)
+                    .lineLimit(1)
+                    .font(.subheadline)
+                Spacer()
+                    .frame(height: 2)
+
+                Text(house.region)
+                    .lineLimit(1)
+                    .font(.body)
+                    .foregroundColor(.gray)
+            }
         }
     }
 }
