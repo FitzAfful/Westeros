@@ -23,7 +23,7 @@ Model contains Model classes that store data from the API
 ### Screenshots
 Launch Screen             |  List |  Details
 :-------------------------:|:-------------------------:|:-------------------------:
-![alt text](https://github.com/FitzAfful/Westeros/blob/master/Screenshots/Launch.png)  |   ![alt text](https://github.com/FitzAfful/Westeros/blob/master/Screenshots/List.png)  |   ![alt text](https://github.com/FitzAfful/Westeros/blob/master/Screenshots/Details.png) 
+![alt text](https://github.com/FitzAfful/Westeros/blob/main/Screenshots/Launch.png)  |   ![alt text](https://github.com/FitzAfful/Westeros/blob/main/Screenshots/List.png)  |   ![alt text](https://github.com/FitzAfful/Westeros/blob/main/Screenshots/Details.png) 
 
 
 ### Libraries/Frameworks Used
