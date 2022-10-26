@@ -23,6 +23,8 @@ struct HousesListView: View {
                 } else {
                     List {
                         Section {
+                            SearchView(searchText: $viewModel.searchText)
+                                .frame(maxHeight: 50)
                         }
 
                         ForEach(viewModel.filteredHouses) { house in
