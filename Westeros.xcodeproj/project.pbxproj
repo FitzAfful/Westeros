@@ -8,23 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		84B2D51929083AEC00BF0B4F /* WesterosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D51829083AEC00BF0B4F /* WesterosApp.swift */; };
-		84B2D51B29083AEC00BF0B4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D51A29083AEC00BF0B4F /* ContentView.swift */; };
 		84B2D51D29083AED00BF0B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D51C29083AED00BF0B4F /* Assets.xcassets */; };
 		84B2D52029083AED00BF0B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D51F29083AED00BF0B4F /* Preview Assets.xcassets */; };
 		84B2D52A29083AED00BF0B4F /* WesterosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D52929083AED00BF0B4F /* WesterosTests.swift */; };
-		84B2D53429083AED00BF0B4F /* WesterosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D53329083AED00BF0B4F /* WesterosUITests.swift */; };
-		84B2D53629083AED00BF0B4F /* WesterosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D53529083AED00BF0B4F /* WesterosUITestsLaunchTests.swift */; };
+		84B2D5492908BD5800BF0B4F /* HousesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5482908BD5800BF0B4F /* HousesRepository.swift */; };
+		84B2D54B2908BD7B00BF0B4F /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D54A2908BD7B00BF0B4F /* Endpoints.swift */; };
+		84B2D54E2908BDA900BF0B4F /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D54D2908BDA900BF0B4F /* House.swift */; };
+		84B2D5502908BDC600BF0B4F /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D54F2908BDC600BF0B4F /* APIResponse.swift */; };
+		84B2D5522908BDE300BF0B4F /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5512908BDE300BF0B4F /* URLResponse.swift */; };
+		84B2D5542908BE0500BF0B4F /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5532908BE0500BF0B4F /* APIErrors.swift */; };
+		84B2D5582908BE4C00BF0B4F /* HousesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5572908BE4C00BF0B4F /* HousesListViewModel.swift */; };
+		84B2D55A2908BE6A00BF0B4F /* HousesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5592908BE6A00BF0B4F /* HousesList.swift */; };
+		84B2D55D2908BEA600BF0B4F /* HouseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D55C2908BEA600BF0B4F /* HouseDetailView.swift */; };
+		84B2D55F2908BEB100BF0B4F /* HouseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D55E2908BEB100BF0B4F /* HouseDetailViewModel.swift */; };
+		84B2D5622908BED000BF0B4F /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5612908BED000BF0B4F /* ActivityIndicator.swift */; };
+		84B2D5662908C10400BF0B4F /* Game of Thrones.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D5652908C10400BF0B4F /* Game of Thrones.ttf */; };
+		84B2D5692908C1D100BF0B4F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5682908C1D100BF0B4F /* SearchView.swift */; };
+		84B2D56B2908C42E00BF0B4F /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D56A2908C42E00BF0B4F /* Font+Extension.swift */; };
+		84B2D56D2908C7FF00BF0B4F /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D56C2908C7FF00BF0B4F /* Color+Extension.swift */; };
+		84B2D56F2908CA5400BF0B4F /* CharacterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D56E2908CA5400BF0B4F /* CharacterRepository.swift */; };
+		84B2D5712908CA6600BF0B4F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5702908CA6600BF0B4F /* Character.swift */; };
+		84B2D5732908CBDF00BF0B4F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D5722908CBDF00BF0B4F /* Launch Screen.storyboard */; };
+		84B2D57529093E8A00BF0B4F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D57429093E8A00BF0B4F /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		84B2D52629083AED00BF0B4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84B2D50D29083AEC00BF0B4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B2D51429083AEC00BF0B4F;
-			remoteInfo = Westeros;
-		};
-		84B2D53029083AED00BF0B4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84B2D50D29083AEC00BF0B4F /* Project object */;
 			proxyType = 1;
@@ -36,14 +45,30 @@
 /* Begin PBXFileReference section */
 		84B2D51529083AEC00BF0B4F /* Westeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westeros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B2D51829083AEC00BF0B4F /* WesterosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesterosApp.swift; sourceTree = "<group>"; };
-		84B2D51A29083AEC00BF0B4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84B2D51C29083AED00BF0B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B2D51F29083AED00BF0B4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84B2D52529083AED00BF0B4F /* WesterosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesterosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B2D52929083AED00BF0B4F /* WesterosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesterosTests.swift; sourceTree = "<group>"; };
-		84B2D52F29083AED00BF0B4F /* WesterosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesterosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84B2D53329083AED00BF0B4F /* WesterosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesterosUITests.swift; sourceTree = "<group>"; };
-		84B2D53529083AED00BF0B4F /* WesterosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesterosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84B2D5482908BD5800BF0B4F /* HousesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesRepository.swift; sourceTree = "<group>"; };
+		84B2D54A2908BD7B00BF0B4F /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		84B2D54D2908BDA900BF0B4F /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		84B2D54F2908BDC600BF0B4F /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		84B2D5512908BDE300BF0B4F /* URLResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLResponse.swift; sourceTree = "<group>"; };
+		84B2D5532908BE0500BF0B4F /* APIErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrors.swift; sourceTree = "<group>"; };
+		84B2D5572908BE4C00BF0B4F /* HousesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListViewModel.swift; sourceTree = "<group>"; };
+		84B2D5592908BE6A00BF0B4F /* HousesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesList.swift; sourceTree = "<group>"; };
+		84B2D55C2908BEA600BF0B4F /* HouseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailView.swift; sourceTree = "<group>"; };
+		84B2D55E2908BEB100BF0B4F /* HouseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewModel.swift; sourceTree = "<group>"; };
+		84B2D5612908BED000BF0B4F /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		84B2D5652908C10400BF0B4F /* Game of Thrones.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Game of Thrones.ttf"; sourceTree = "<group>"; };
+		84B2D5672908C16500BF0B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		84B2D5682908C1D100BF0B4F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		84B2D56A2908C42E00BF0B4F /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		84B2D56C2908C7FF00BF0B4F /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		84B2D56E2908CA5400BF0B4F /* CharacterRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRepository.swift; sourceTree = "<group>"; };
+		84B2D5702908CA6600BF0B4F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		84B2D5722908CBDF00BF0B4F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		84B2D57429093E8A00BF0B4F /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84B2D52C29083AED00BF0B4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +94,6 @@
 			children = (
 				84B2D51729083AEC00BF0B4F /* Westeros */,
 				84B2D52829083AED00BF0B4F /* WesterosTests */,
-				84B2D53229083AED00BF0B4F /* WesterosUITests */,
 				84B2D51629083AEC00BF0B4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +103,6 @@
 			children = (
 				84B2D51529083AEC00BF0B4F /* Westeros.app */,
 				84B2D52529083AED00BF0B4F /* WesterosTests.xctest */,
-				84B2D52F29083AED00BF0B4F /* WesterosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +110,14 @@
 		84B2D51729083AEC00BF0B4F /* Westeros */ = {
 			isa = PBXGroup;
 			children = (
+				84B2D5672908C16500BF0B4F /* Info.plist */,
+				84B2D5632908BEE600BF0B4F /* Data */,
+				84B2D5602908BEBD00BF0B4F /* Helpers */,
+				84B2D5552908BE2600BF0B4F /* Modules */,
 				84B2D51829083AEC00BF0B4F /* WesterosApp.swift */,
-				84B2D51A29083AEC00BF0B4F /* ContentView.swift */,
 				84B2D51C29083AED00BF0B4F /* Assets.xcassets */,
 				84B2D51E29083AED00BF0B4F /* Preview Content */,
+				84B2D5722908CBDF00BF0B4F /* Launch Screen.storyboard */,
 			);
 			path = Westeros;
 			sourceTree = "<group>";
@@ -118,13 +138,91 @@
 			path = WesterosTests;
 			sourceTree = "<group>";
 		};
-		84B2D53229083AED00BF0B4F /* WesterosUITests */ = {
+		84B2D5462908BD2600BF0B4F /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
-				84B2D53329083AED00BF0B4F /* WesterosUITests.swift */,
-				84B2D53529083AED00BF0B4F /* WesterosUITestsLaunchTests.swift */,
+				84B2D54A2908BD7B00BF0B4F /* Endpoints.swift */,
+				84B2D54F2908BDC600BF0B4F /* APIResponse.swift */,
+				84B2D5512908BDE300BF0B4F /* URLResponse.swift */,
+				84B2D5532908BE0500BF0B4F /* APIErrors.swift */,
 			);
-			path = WesterosUITests;
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		84B2D5472908BD3B00BF0B4F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D5482908BD5800BF0B4F /* HousesRepository.swift */,
+				84B2D56E2908CA5400BF0B4F /* CharacterRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		84B2D54C2908BD9700BF0B4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D54D2908BDA900BF0B4F /* House.swift */,
+				84B2D5702908CA6600BF0B4F /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84B2D5552908BE2600BF0B4F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D5562908BE3800BF0B4F /* HouseList */,
+				84B2D55B2908BE9600BF0B4F /* HouseDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84B2D5562908BE3800BF0B4F /* HouseList */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D5572908BE4C00BF0B4F /* HousesListViewModel.swift */,
+				84B2D5592908BE6A00BF0B4F /* HousesList.swift */,
+				84B2D5682908C1D100BF0B4F /* SearchView.swift */,
+			);
+			path = HouseList;
+			sourceTree = "<group>";
+		};
+		84B2D55B2908BE9600BF0B4F /* HouseDetail */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D55C2908BEA600BF0B4F /* HouseDetailView.swift */,
+				84B2D55E2908BEB100BF0B4F /* HouseDetailViewModel.swift */,
+			);
+			path = HouseDetail;
+			sourceTree = "<group>";
+		};
+		84B2D5602908BEBD00BF0B4F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D5642908C0DF00BF0B4F /* Font */,
+				84B2D5612908BED000BF0B4F /* ActivityIndicator.swift */,
+				84B2D56C2908C7FF00BF0B4F /* Color+Extension.swift */,
+				84B2D57429093E8A00BF0B4F /* String+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84B2D5632908BEE600BF0B4F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D54C2908BD9700BF0B4F /* Model */,
+				84B2D5462908BD2600BF0B4F /* APIClient */,
+				84B2D5472908BD3B00BF0B4F /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		84B2D5642908C0DF00BF0B4F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D5652908C10400BF0B4F /* Game of Thrones.ttf */,
+				84B2D56A2908C42E00BF0B4F /* Font+Extension.swift */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +263,6 @@
 			productReference = 84B2D52529083AED00BF0B4F /* WesterosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84B2D52E29083AED00BF0B4F /* WesterosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84B2D53F29083AED00BF0B4F /* Build configuration list for PBXNativeTarget "WesterosUITests" */;
-			buildPhases = (
-				84B2D52B29083AED00BF0B4F /* Sources */,
-				84B2D52C29083AED00BF0B4F /* Frameworks */,
-				84B2D52D29083AED00BF0B4F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84B2D53129083AED00BF0B4F /* PBXTargetDependency */,
-			);
-			name = WesterosUITests;
-			productName = WesterosUITests;
-			productReference = 84B2D52F29083AED00BF0B4F /* WesterosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +277,6 @@
 						CreatedOnToolsVersion = 14.0;
 					};
 					84B2D52429083AED00BF0B4F = {
-						CreatedOnToolsVersion = 14.0;
-						TestTargetID = 84B2D51429083AEC00BF0B4F;
-					};
-					84B2D52E29083AED00BF0B4F = {
 						CreatedOnToolsVersion = 14.0;
 						TestTargetID = 84B2D51429083AEC00BF0B4F;
 					};
@@ -221,7 +297,6 @@
 			targets = (
 				84B2D51429083AEC00BF0B4F /* Westeros */,
 				84B2D52429083AED00BF0B4F /* WesterosTests */,
-				84B2D52E29083AED00BF0B4F /* WesterosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,17 +308,12 @@
 			files = (
 				84B2D52029083AED00BF0B4F /* Preview Assets.xcassets in Resources */,
 				84B2D51D29083AED00BF0B4F /* Assets.xcassets in Resources */,
+				84B2D5732908CBDF00BF0B4F /* Launch Screen.storyboard in Resources */,
+				84B2D5662908C10400BF0B4F /* Game of Thrones.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		84B2D52329083AED00BF0B4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84B2D52D29083AED00BF0B4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,8 +327,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B2D51B29083AEC00BF0B4F /* ContentView.swift in Sources */,
+				84B2D55F2908BEB100BF0B4F /* HouseDetailViewModel.swift in Sources */,
+				84B2D56F2908CA5400BF0B4F /* CharacterRepository.swift in Sources */,
+				84B2D56D2908C7FF00BF0B4F /* Color+Extension.swift in Sources */,
+				84B2D5542908BE0500BF0B4F /* APIErrors.swift in Sources */,
+				84B2D55D2908BEA600BF0B4F /* HouseDetailView.swift in Sources */,
+				84B2D5622908BED000BF0B4F /* ActivityIndicator.swift in Sources */,
+				84B2D55A2908BE6A00BF0B4F /* HousesList.swift in Sources */,
 				84B2D51929083AEC00BF0B4F /* WesterosApp.swift in Sources */,
+				84B2D54B2908BD7B00BF0B4F /* Endpoints.swift in Sources */,
+				84B2D54E2908BDA900BF0B4F /* House.swift in Sources */,
+				84B2D57529093E8A00BF0B4F /* String+Extension.swift in Sources */,
+				84B2D5692908C1D100BF0B4F /* SearchView.swift in Sources */,
+				84B2D5492908BD5800BF0B4F /* HousesRepository.swift in Sources */,
+				84B2D5522908BDE300BF0B4F /* URLResponse.swift in Sources */,
+				84B2D5502908BDC600BF0B4F /* APIResponse.swift in Sources */,
+				84B2D56B2908C42E00BF0B4F /* Font+Extension.swift in Sources */,
+				84B2D5712908CA6600BF0B4F /* Character.swift in Sources */,
+				84B2D5582908BE4C00BF0B4F /* HousesListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +356,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84B2D52B29083AED00BF0B4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84B2D53629083AED00BF0B4F /* WesterosUITestsLaunchTests.swift in Sources */,
-				84B2D53429083AED00BF0B4F /* WesterosUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +363,6 @@
 			isa = PBXTargetDependency;
 			target = 84B2D51429083AEC00BF0B4F /* Westeros */;
 			targetProxy = 84B2D52629083AED00BF0B4F /* PBXContainerItemProxy */;
-		};
-		84B2D53129083AED00BF0B4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84B2D51429083AEC00BF0B4F /* Westeros */;
-			targetProxy = 84B2D53029083AED00BF0B4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,9 +492,11 @@
 				DEVELOPMENT_TEAM = 97XB8J435J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Westeros/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -432,6 +506,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.Westeros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,9 +526,11 @@
 				DEVELOPMENT_TEAM = 97XB8J435J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Westeros/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,6 +540,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.Westeros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,10 +558,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 97XB8J435J;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.WesterosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,50 +581,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 97XB8J435J;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.WesterosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westeros.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Westeros";
-			};
-			name = Release;
-		};
-		84B2D54029083AED00BF0B4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97XB8J435J;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.WesterosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Westeros;
-			};
-			name = Debug;
-		};
-		84B2D54129083AED00BF0B4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97XB8J435J;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fitzafful.WesterosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Westeros;
 			};
 			name = Release;
 		};
@@ -569,15 +621,6 @@
 			buildConfigurations = (
 				84B2D53D29083AED00BF0B4F /* Debug */,
 				84B2D53E29083AED00BF0B4F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84B2D53F29083AED00BF0B4F /* Build configuration list for PBXNativeTarget "WesterosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84B2D54029083AED00BF0B4F /* Debug */,
-				84B2D54129083AED00BF0B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
