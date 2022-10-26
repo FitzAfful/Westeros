@@ -23,6 +23,7 @@ class HouseViewModel: ObservableObject {
     @Published var seats: [String] = []
     @Published var heir: String?
     @Published var overlord: String?
+    @Published var image: String?
     @Published var founded: String?
     @Published var founder: String?
     @Published var diedOut: String?
@@ -64,6 +65,7 @@ class HouseViewModel: ObservableObject {
         self.founder = house.founder
         self.diedOut = house.diedOut
         self.ancestralWeapons = house.ancestralWeapons.filter({ $0 != "" })
+        self.image = house.getImage()
 
         for cadetBranch in house.cadetBranches {
             self.getHouseDetails(url: cadetBranch) { character in

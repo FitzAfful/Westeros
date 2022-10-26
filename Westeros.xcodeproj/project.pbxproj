@@ -30,7 +30,6 @@
 		84B2D5712908CA6600BF0B4F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5702908CA6600BF0B4F /* Character.swift */; };
 		84B2D5732908CBDF00BF0B4F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D5722908CBDF00BF0B4F /* Launch Screen.storyboard */; };
 		84B2D57529093E8A00BF0B4F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D57429093E8A00BF0B4F /* String+Extension.swift */; };
-		84B3EB96290997780009BE36 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EB95290997780009BE36 /* Region.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +69,6 @@
 		84B2D5702908CA6600BF0B4F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		84B2D5722908CBDF00BF0B4F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		84B2D57429093E8A00BF0B4F /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		84B3EB95290997780009BE36 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +163,6 @@
 			children = (
 				84B2D54D2908BDA900BF0B4F /* House.swift */,
 				84B2D5702908CA6600BF0B4F /* Character.swift */,
-				84B3EB95290997780009BE36 /* Region.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -338,7 +335,6 @@
 				84B2D5622908BED000BF0B4F /* ActivityIndicator.swift in Sources */,
 				84B2D55A2908BE6A00BF0B4F /* HousesList.swift in Sources */,
 				84B2D51929083AEC00BF0B4F /* WesterosApp.swift in Sources */,
-				84B3EB96290997780009BE36 /* Region.swift in Sources */,
 				84B2D54B2908BD7B00BF0B4F /* Endpoints.swift in Sources */,
 				84B2D54E2908BDA900BF0B4F /* House.swift in Sources */,
 				84B2D57529093E8A00BF0B4F /* String+Extension.swift in Sources */,
