@@ -1,0 +1,651 @@
+[
+    {
+        "url": "https://anapioficeandfire.com/api/houses/421",
+        "name": "House Wells",
+        "region": "The North",
+        "coatOfArms": "Per fess cendrée and lozengy argent and vert, in chief five pellets",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/34",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/1018"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/422",
+        "name": "House Wendwater",
+        "region": "The Crownlands",
+        "coatOfArms": "A green engrailed pall, inverted on white, dividing three trees, green, red and bare",
+        "words": "For All Seasons",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/16",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/423",
+        "name": "House Wensington",
+        "region": "The Stormlands",
+        "coatOfArms": "Two golden trumpets crossed on a blue field, beneath a gold chief with three black stags(Azure, two trumpets saltirewise or, on a chief of the second three stags salient sable)",
+        "words": "Sound The Charge",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/17",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/424",
+        "name": "House Westbrook",
+        "region": "The Reach",
+        "coatOfArms": "Two green bars gemmel on gold",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/398",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/425",
+        "name": "House Westerling of the Crag",
+        "region": "The Westerlands",
+        "coatOfArms": "Six white shells, on a sand-coloured field(Or, six escallops argent)",
+        "words": "Honor, Not Honors",
+        "titles": [
+            "Lord of the Crag"
+        ],
+        "seats": [
+            "The Crag"
+        ],
+        "currentLord": "https://anapioficeandfire.com/api/characters/413",
+        "heir": "https://anapioficeandfire.com/api/characters/923",
+        "overlord": "https://anapioficeandfire.com/api/houses/229",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/360",
+            "https://anapioficeandfire.com/api/characters/374",
+            "https://anapioficeandfire.com/api/characters/413",
+            "https://anapioficeandfire.com/api/characters/479",
+            "https://anapioficeandfire.com/api/characters/560",
+            "https://anapioficeandfire.com/api/characters/561",
+            "https://anapioficeandfire.com/api/characters/568",
+            "https://anapioficeandfire.com/api/characters/792",
+            "https://anapioficeandfire.com/api/characters/856",
+            "https://anapioficeandfire.com/api/characters/923",
+            "https://anapioficeandfire.com/api/characters/927",
+            "https://anapioficeandfire.com/api/characters/997"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/426",
+        "name": "House Westford",
+        "region": "The Westerlands",
+        "coatOfArms": "A black dog on blue",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/229",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/427",
+        "name": "House Whent of Harrenhal",
+        "region": "The Riverlands",
+        "coatOfArms": "Nine black bats, on a yellow field(Or, nine bats, 4, 3, 2, displayed sable)",
+        "words": "",
+        "titles": [
+            "Lord of Harrenhal"
+        ],
+        "seats": [
+            "Harrenhal (stripped)"
+        ],
+        "currentLord": "https://anapioficeandfire.com/api/characters/972",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/395",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/755",
+            "https://anapioficeandfire.com/api/characters/805",
+            "https://anapioficeandfire.com/api/characters/960",
+            "https://anapioficeandfire.com/api/characters/972",
+            "https://anapioficeandfire.com/api/characters/1099",
+            "https://anapioficeandfire.com/api/characters/1120",
+            "https://anapioficeandfire.com/api/characters/1125",
+            "https://anapioficeandfire.com/api/characters/1161",
+            "https://anapioficeandfire.com/api/characters/1207",
+            "https://anapioficeandfire.com/api/characters/1483",
+            "https://anapioficeandfire.com/api/characters/1638",
+            "https://anapioficeandfire.com/api/characters/1811",
+            "https://anapioficeandfire.com/api/characters/2091"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/428",
+        "name": "House Whitehill",
+        "region": "The North",
+        "coatOfArms": "A white pile inverted on indigo, an arch of 4-pointed stars above",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            "Highpoint (Telltale)"
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/34",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/429",
+        "name": "House Willum",
+        "region": "The Reach",
+        "coatOfArms": "three silver longswords crossed on black beneath a dragonbone skeleton on a white chief",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/398",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/371",
+            "https://anapioficeandfire.com/api/characters/598"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/430",
+        "name": "House Wode",
+        "region": "The Riverlands",
+        "coatOfArms": "Three white hedgehogs, on a yellow field(Or, three hedgehogs argent)",
+        "words": "Touch Me Not",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/10",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/1120"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/431",
+        "name": "House Woodfoot of Bear Island",
+        "region": "The North",
+        "coatOfArms": "",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            "Bear Island"
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/362",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/432",
+        "name": "House Woods",
+        "region": "The North",
+        "coatOfArms": "",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/150",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/1753"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/433",
+        "name": "House Woodwright",
+        "region": "The Reach",
+        "coatOfArms": "A red pall on a field of oak",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/398",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/434",
+        "name": "House Woolfield",
+        "region": "The North",
+        "coatOfArms": "Three woolsacks, white on purple, a white border",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/34",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/627"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/435",
+        "name": "House Wull",
+        "region": "The North",
+        "coatOfArms": "Azure, three wooden buckets tenné, a bordure chequy cendrée and white",
+        "words": "",
+        "titles": [
+            "The Wull  Lord Wull"
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "https://anapioficeandfire.com/api/characters/512",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/362",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/512",
+            "https://anapioficeandfire.com/api/characters/1017"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/436",
+        "name": "House Wydman",
+        "region": "The Vale",
+        "coatOfArms": "Five splintered lances, 3, 2, striped blue and white with blue pennons, on a yellow field, beneath a white chief bearing a red castle, a green viper, a black broken wheel, a purple unicorn and a yellow lion.",
+        "words": "Right Conquers Might",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/7",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/437",
+        "name": "House Wyl of the Boneway",
+        "region": "Dorne",
+        "coatOfArms": "A black adder biting a heel on yellow",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            "Wyl"
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/285",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/438",
+        "name": "House Wylde of Rain House",
+        "region": "The Stormlands",
+        "coatOfArms": "A blue-green maelstrom, on a gold field(Or, a maelstrom azure)",
+        "words": "",
+        "titles": [
+            "Lord of the Rain House"
+        ],
+        "seats": [
+            "Rain House"
+        ],
+        "currentLord": "https://anapioficeandfire.com/api/characters/229",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/17",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/229",
+            "https://anapioficeandfire.com/api/characters/370",
+            "https://anapioficeandfire.com/api/characters/414",
+            "https://anapioficeandfire.com/api/characters/427",
+            "https://anapioficeandfire.com/api/characters/543",
+            "https://anapioficeandfire.com/api/characters/587",
+            "https://anapioficeandfire.com/api/characters/795",
+            "https://anapioficeandfire.com/api/characters/890",
+            "https://anapioficeandfire.com/api/characters/1045",
+            "https://anapioficeandfire.com/api/characters/1117"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/439",
+        "name": "House Wynch of Iron Holt",
+        "region": "Iron Islands",
+        "coatOfArms": "a bloody moon on purple",
+        "words": "",
+        "titles": [
+            "Lord of Iron Holt"
+        ],
+        "seats": [
+            "Iron Holt"
+        ],
+        "currentLord": "https://anapioficeandfire.com/api/characters/1097",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/169",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/64",
+            "https://anapioficeandfire.com/api/characters/1097"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/440",
+        "name": "House Wythers",
+        "region": "The Reach",
+        "coatOfArms": "a grey squirrel on white with red border",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/398",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/809",
+            "https://anapioficeandfire.com/api/characters/1112"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/441",
+        "name": "House Yarwyck",
+        "region": "The Westerlands",
+        "coatOfArms": "Two bronze halberds crossed between four red diamonds, on a white field(Argent, two halberds saltirewise tenné, hafted sable, between four lozenges gules)",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/229",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/806"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/442",
+        "name": "House Yelshire",
+        "region": "The Reach",
+        "coatOfArms": "Barry vert and Or, on a chief sable a battering-ram proper headed Or",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/398",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": []
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/443",
+        "name": "House Yew",
+        "region": "The Westerlands",
+        "coatOfArms": "A golden longbow between two crimson flaunches, on a white field(Argent, a longbow or between two flaunches gules)",
+        "words": "",
+        "titles": [
+            ""
+        ],
+        "seats": [
+            ""
+        ],
+        "currentLord": "https://anapioficeandfire.com/api/characters/707",
+        "heir": "",
+        "overlord": "https://anapioficeandfire.com/api/houses/229",
+        "founded": "",
+        "founder": "https://anapioficeandfire.com/api/characters/65",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/65",
+            "https://anapioficeandfire.com/api/characters/707"
+        ]
+    },
+    {
+        "url": "https://anapioficeandfire.com/api/houses/444",
+        "name": "House Yronwood of Yronwood",
+        "region": "Dorne",
+        "coatOfArms": "Or, a portcullis sable",
+        "words": "We Guard the Way",
+        "titles": [
+            "The Bloodroyal",
+            "Lord of Yronwood",
+            "Warden of the Stone Way",
+            "High King of Dorne (formerly)"
+        ],
+        "seats": [
+            "Yronwood"
+        ],
+        "currentLord": "https://anapioficeandfire.com/api/characters/117",
+        "heir": "https://anapioficeandfire.com/api/characters/452",
+        "overlord": "https://anapioficeandfire.com/api/houses/285",
+        "founded": "",
+        "founder": "",
+        "diedOut": "",
+        "ancestralWeapons": [
+            ""
+        ],
+        "cadetBranches": [],
+        "swornMembers": [
+            "https://anapioficeandfire.com/api/characters/117",
+            "https://anapioficeandfire.com/api/characters/126",
+            "https://anapioficeandfire.com/api/characters/246",
+            "https://anapioficeandfire.com/api/characters/452",
+            "https://anapioficeandfire.com/api/characters/793",
+            "https://anapioficeandfire.com/api/characters/1129"
+        ]
+    }
+]
