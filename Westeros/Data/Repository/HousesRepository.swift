@@ -8,7 +8,12 @@
 import Foundation
 import Combine
 
-class HouseRepository {
+protocol HouseRepositoryProtocol {
+    func loadHouses(page: Int, completion: @escaping([House]?, Pagination?, String?) -> Void)
+    func getHouse(url: String, completion: @escaping(House?, String?) -> Void)
+}
+
+class HouseRepository: HouseRepositoryProtocol {
     private let pageSize = 30
 
     func loadHouses(page: Int = 0, completion: @escaping([House]?, Pagination?, String?) -> Void) {

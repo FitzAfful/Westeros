@@ -8,7 +8,7 @@
 import Foundation
 
 class HousesListViewModel: ObservableObject {
-    private var repo = HouseRepository()
+    var repo: HouseRepositoryProtocol = HouseRepository()
 
     @Published var searchText: String = "" {
         didSet {
@@ -16,8 +16,8 @@ class HousesListViewModel: ObservableObject {
         }
     }
     @Published private(set) var isLoading: Bool = true
-    @Published private(set) var filteredHouses: [House] = []
-    @Published private(set) var houses: [House] = [] {
+    @Published var filteredHouses: [House] = []
+    @Published var houses: [House] = [] {
         didSet { filterHouses() }
     }
     @Published private(set) var currentPage: Int = 0
@@ -33,7 +33,8 @@ class HousesListViewModel: ObservableObject {
 
                 if let newHouses {
                     self.houses.append(contentsOf: newHouses)
-                    print(self.houses)
+                    print("House Count: \(newHouses.count)")
+                    print("Houses Count: \(self.houses.count)")
                 }
 
                 if let pagination, let lastPage = pagination.last {

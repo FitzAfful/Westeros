@@ -8,10 +8,10 @@
 import Combine
 
 class HouseViewModel: ObservableObject {
-    let characterRepo = CharacterRepository()
-    let houseRepo = HouseRepository()
+    var characterRepo: CharacterRepositoryProtocol = CharacterRepository()
+    var houseRepo: HouseRepositoryProtocol = HouseRepository()
 
-    private var house: House?
+    var house: House?
 
     @Published var name: String?
     @Published var region: String?

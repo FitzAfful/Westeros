@@ -7,7 +7,11 @@
 
 import Foundation
 
-class CharacterRepository {
+protocol CharacterRepositoryProtocol {
+    func getCharacter(url: String, completion: @escaping(Character?, String?) -> Void)
+}
+
+class CharacterRepository: CharacterRepositoryProtocol {
 
     func getCharacter(url: String, completion: @escaping(Character?, String?) -> Void) {
         guard let url = URL (string: url) else { return }
