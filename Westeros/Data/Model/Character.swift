@@ -27,3 +27,10 @@ struct Character: Codable, Identifiable, Hashable {
         case name, gender, culture, born, url, titles, aliases, father, mother, spouse, allegiances, playedBy
     }
 }
+
+extension Character {
+    static func random() -> Character {
+        let localData = JSONParser.readLocalFile(forName: "character")!
+        return JSONParser.parse(jsonData: localData, as: Character.self)!
+    }
+}

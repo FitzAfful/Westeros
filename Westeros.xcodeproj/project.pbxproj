@@ -16,7 +16,6 @@
 		84B2D54E2908BDA900BF0B4F /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D54D2908BDA900BF0B4F /* House.swift */; };
 		84B2D5502908BDC600BF0B4F /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D54F2908BDC600BF0B4F /* APIResponse.swift */; };
 		84B2D5522908BDE300BF0B4F /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5512908BDE300BF0B4F /* URLResponse.swift */; };
-		84B2D5542908BE0500BF0B4F /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5532908BE0500BF0B4F /* APIErrors.swift */; };
 		84B2D5582908BE4C00BF0B4F /* HousesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5572908BE4C00BF0B4F /* HousesListViewModel.swift */; };
 		84B2D55A2908BE6A00BF0B4F /* HousesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5592908BE6A00BF0B4F /* HousesList.swift */; };
 		84B2D55D2908BEA600BF0B4F /* HouseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D55C2908BEA600BF0B4F /* HouseDetailView.swift */; };
@@ -30,6 +29,26 @@
 		84B2D5712908CA6600BF0B4F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5702908CA6600BF0B4F /* Character.swift */; };
 		84B2D5732908CBDF00BF0B4F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D5722908CBDF00BF0B4F /* Launch Screen.storyboard */; };
 		84B2D57529093E8A00BF0B4F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D57429093E8A00BF0B4F /* String+Extension.swift */; };
+		84B3EB99290A07980009BE36 /* houses.json in Resources */ = {isa = PBXBuildFile; fileRef = 84B3EB98290A07980009BE36 /* houses.json */; };
+		84B3EB9B290A08490009BE36 /* MockHousesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EB9A290A08490009BE36 /* MockHousesRepository.swift */; };
+		84B3EB9D290A099A0009BE36 /* house.json in Resources */ = {isa = PBXBuildFile; fileRef = 84B3EB9C290A099A0009BE36 /* house.json */; };
+		84B3EB9F290A09AB0009BE36 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 84B3EB9E290A09AB0009BE36 /* character.json */; };
+		84B3EBA2290A09F70009BE36 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EBA1290A09F70009BE36 /* JSONParser.swift */; };
+		84B3EBA4290A0A070009BE36 /* MockCharacterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EBA3290A0A070009BE36 /* MockCharacterRepository.swift */; };
+		84B3EBA6290A0A9D0009BE36 /* HousesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EBA5290A0A9D0009BE36 /* HousesListViewModelTests.swift */; };
+		84B3EBA7290A0FC00009BE36 /* HousesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5572908BE4C00BF0B4F /* HousesListViewModel.swift */; };
+		84B3EBA8290A0FD30009BE36 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D54D2908BDA900BF0B4F /* House.swift */; };
+		84B3EBA9290A0FD80009BE36 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5702908CA6600BF0B4F /* Character.swift */; };
+		84B3EBAA290A0FFF0009BE36 /* HousesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D5482908BD5800BF0B4F /* HousesRepository.swift */; };
+		84B3EBAB290A10030009BE36 /* CharacterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D56E2908CA5400BF0B4F /* CharacterRepository.swift */; };
+		84B3EBAC290A10130009BE36 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D54A2908BD7B00BF0B4F /* Endpoints.swift */; };
+		84B3EBAE290A101C0009BE36 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D54F2908BDC600BF0B4F /* APIResponse.swift */; };
+		84B3EBB0290A12990009BE36 /* HouseViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EBAF290A12990009BE36 /* HouseViewModelTests.swift */; };
+		84B3EBB5290A14860009BE36 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EBA1290A09F70009BE36 /* JSONParser.swift */; };
+		84B3EBB6290A19610009BE36 /* HouseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D55E2908BEB100BF0B4F /* HouseDetailViewModel.swift */; };
+		84B3EBB7290A1FA10009BE36 /* houses.json in Resources */ = {isa = PBXBuildFile; fileRef = 84B3EB98290A07980009BE36 /* houses.json */; };
+		84B3EBB8290A1FA40009BE36 /* house.json in Resources */ = {isa = PBXBuildFile; fileRef = 84B3EB9C290A099A0009BE36 /* house.json */; };
+		84B3EBB9290A1FA70009BE36 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 84B3EB9E290A09AB0009BE36 /* character.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +73,6 @@
 		84B2D54D2908BDA900BF0B4F /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		84B2D54F2908BDC600BF0B4F /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		84B2D5512908BDE300BF0B4F /* URLResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLResponse.swift; sourceTree = "<group>"; };
-		84B2D5532908BE0500BF0B4F /* APIErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrors.swift; sourceTree = "<group>"; };
 		84B2D5572908BE4C00BF0B4F /* HousesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListViewModel.swift; sourceTree = "<group>"; };
 		84B2D5592908BE6A00BF0B4F /* HousesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesList.swift; sourceTree = "<group>"; };
 		84B2D55C2908BEA600BF0B4F /* HouseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailView.swift; sourceTree = "<group>"; };
@@ -69,6 +87,14 @@
 		84B2D5702908CA6600BF0B4F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		84B2D5722908CBDF00BF0B4F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		84B2D57429093E8A00BF0B4F /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		84B3EB98290A07980009BE36 /* houses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = houses.json; sourceTree = "<group>"; };
+		84B3EB9A290A08490009BE36 /* MockHousesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHousesRepository.swift; sourceTree = "<group>"; };
+		84B3EB9C290A099A0009BE36 /* house.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = house.json; sourceTree = "<group>"; };
+		84B3EB9E290A09AB0009BE36 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
+		84B3EBA1290A09F70009BE36 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		84B3EBA3290A0A070009BE36 /* MockCharacterRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCharacterRepository.swift; sourceTree = "<group>"; };
+		84B3EBA5290A0A9D0009BE36 /* HousesListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousesListViewModelTests.swift; sourceTree = "<group>"; };
+		84B3EBAF290A12990009BE36 /* HouseViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +159,10 @@
 		84B2D52829083AED00BF0B4F /* WesterosTests */ = {
 			isa = PBXGroup;
 			children = (
+				84B3EBA0290A09B90009BE36 /* Mocks */,
 				84B2D52929083AED00BF0B4F /* WesterosTests.swift */,
+				84B3EBA5290A0A9D0009BE36 /* HousesListViewModelTests.swift */,
+				84B3EBAF290A12990009BE36 /* HouseViewModelTests.swift */,
 			);
 			path = WesterosTests;
 			sourceTree = "<group>";
@@ -144,7 +173,7 @@
 				84B2D54A2908BD7B00BF0B4F /* Endpoints.swift */,
 				84B2D54F2908BDC600BF0B4F /* APIResponse.swift */,
 				84B2D5512908BDE300BF0B4F /* URLResponse.swift */,
-				84B2D5532908BE0500BF0B4F /* APIErrors.swift */,
+				84B3EBA1290A09F70009BE36 /* JSONParser.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -161,6 +190,7 @@
 		84B2D54C2908BD9700BF0B4F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84B3EB97290A07760009BE36 /* SupportingFiles */,
 				84B2D54D2908BDA900BF0B4F /* House.swift */,
 				84B2D5702908CA6600BF0B4F /* Character.swift */,
 			);
@@ -223,6 +253,25 @@
 				84B2D56A2908C42E00BF0B4F /* Font+Extension.swift */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		84B3EB97290A07760009BE36 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				84B3EB98290A07980009BE36 /* houses.json */,
+				84B3EB9C290A099A0009BE36 /* house.json */,
+				84B3EB9E290A09AB0009BE36 /* character.json */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		84B3EBA0290A09B90009BE36 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				84B3EB9A290A08490009BE36 /* MockHousesRepository.swift */,
+				84B3EBA3290A0A070009BE36 /* MockCharacterRepository.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +355,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B3EBB9290A1FA70009BE36 /* character.json in Resources */,
 				84B2D52029083AED00BF0B4F /* Preview Assets.xcassets in Resources */,
+				84B3EBB7290A1FA10009BE36 /* houses.json in Resources */,
+				84B3EBB8290A1FA40009BE36 /* house.json in Resources */,
 				84B2D51D29083AED00BF0B4F /* Assets.xcassets in Resources */,
 				84B2D5732908CBDF00BF0B4F /* Launch Screen.storyboard in Resources */,
 				84B2D5662908C10400BF0B4F /* Game of Thrones.ttf in Resources */,
@@ -317,6 +369,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B3EB9D290A099A0009BE36 /* house.json in Resources */,
+				84B3EB99290A07980009BE36 /* houses.json in Resources */,
+				84B3EB9F290A09AB0009BE36 /* character.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +384,8 @@
 			files = (
 				84B2D55F2908BEB100BF0B4F /* HouseDetailViewModel.swift in Sources */,
 				84B2D56F2908CA5400BF0B4F /* CharacterRepository.swift in Sources */,
+				84B3EBB5290A14860009BE36 /* JSONParser.swift in Sources */,
 				84B2D56D2908C7FF00BF0B4F /* Color+Extension.swift in Sources */,
-				84B2D5542908BE0500BF0B4F /* APIErrors.swift in Sources */,
 				84B2D55D2908BEA600BF0B4F /* HouseDetailView.swift in Sources */,
 				84B2D5622908BED000BF0B4F /* ActivityIndicator.swift in Sources */,
 				84B2D55A2908BE6A00BF0B4F /* HousesList.swift in Sources */,
@@ -352,7 +407,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B3EBB6290A19610009BE36 /* HouseDetailViewModel.swift in Sources */,
+				84B3EBA8290A0FD30009BE36 /* House.swift in Sources */,
+				84B3EBB0290A12990009BE36 /* HouseViewModelTests.swift in Sources */,
+				84B3EB9B290A08490009BE36 /* MockHousesRepository.swift in Sources */,
+				84B3EBAA290A0FFF0009BE36 /* HousesRepository.swift in Sources */,
 				84B2D52A29083AED00BF0B4F /* WesterosTests.swift in Sources */,
+				84B3EBA6290A0A9D0009BE36 /* HousesListViewModelTests.swift in Sources */,
+				84B3EBA2290A09F70009BE36 /* JSONParser.swift in Sources */,
+				84B3EBAE290A101C0009BE36 /* APIResponse.swift in Sources */,
+				84B3EBA4290A0A070009BE36 /* MockCharacterRepository.swift in Sources */,
+				84B3EBA7290A0FC00009BE36 /* HousesListViewModel.swift in Sources */,
+				84B3EBA9290A0FD80009BE36 /* Character.swift in Sources */,
+				84B3EBAB290A10030009BE36 /* CharacterRepository.swift in Sources */,
+				84B3EBAC290A10130009BE36 /* Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

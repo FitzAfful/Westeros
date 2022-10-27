@@ -32,7 +32,7 @@ struct House: Codable, Identifiable, Hashable {
     }
 
     func getImage() -> String {
-        var regionImages: [String: String] =
+        let regionImages: [String: String] =
             [
                 "The Reach": "reach",
                 "The Riverlands": "riverlands",
@@ -46,5 +46,12 @@ struct House: Codable, Identifiable, Hashable {
                 "Beyond The Wall": "beyond"
             ]
         return regionImages[self.region] ?? "crownlands"
+    }
+}
+
+extension House {
+    static func random() -> House {
+        let localData = JSONParser.readLocalFile(forName: "house")!
+        return JSONParser.parse(jsonData: localData, as: House.self)!
     }
 }
