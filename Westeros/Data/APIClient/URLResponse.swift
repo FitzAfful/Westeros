@@ -7,14 +7,14 @@
 
 import Foundation
 
-extension HTTPURLResponse {
+public extension HTTPURLResponse {
 
-    public enum Page {
+    enum Page {
         case prev
         case next
         case last
 
-        var rawValue: String {
+        var value: String {
             switch self {
             case .prev: return "prev"
             case .next: return "next"
@@ -23,11 +23,11 @@ extension HTTPURLResponse {
         }
     }
 
-    public func getPage(_ page: Page) -> Int? {
+    func getPage(_ page: HTTPURLResponse.Page) -> Int? {
         guard let link = self.allHeaderFields["Link"] as? String else { return nil }
         let components = link.components(separatedBy: ",")
         guard
-            let pageLink = components.filter({ $0.contains(page.rawValue) }).first,
+            let pageLink = components.filter({ $0.contains(page.value) }).first,
             let pageUrlString = pageLink.slice(from: "<", to: ">"),
             let url = URL(string: pageUrlString),
             let pageString = url.valueOf("page") else { return nil }
