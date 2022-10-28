@@ -12,6 +12,8 @@ enum Endpoint {
     case getHouses(Int, Int)
     case getHouse(String)
     case getCharacter(String)
+    case getBooks(Int, Int)
+    case getBook(String)
 
     var url: URL {
         switch self {
@@ -21,6 +23,10 @@ enum Endpoint {
             return .makeForEndpoint("houses?page=\(page)&pageSize=\(pageSize)")
         case .getCharacter(let id):
             return .makeForEndpoint("characters\(id)")
+        case .getBooks(let page, let pageSize):
+            return .makeForEndpoint("books?page=\(page)&pageSize=\(pageSize)")
+        case .getBook(let id):
+            return .makeForEndpoint("books/\(id)")
         }
     }
 
