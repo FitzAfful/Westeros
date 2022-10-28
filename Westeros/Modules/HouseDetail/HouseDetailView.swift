@@ -21,66 +21,66 @@ struct HouseDetailView: View {
                     if let name = viewModel.name,
                        let words = viewModel.words,
                        let image = viewModel.image {
-                        HouseTitleRow(title: name, words: words, image: image)
+                        TitleRow(title: name, words: words, image: image)
                     }
 
                     ScrollView (.vertical, showsIndicators: false) {
                         Group {
 
                             if let region = viewModel.region, !region.isEmpty {
-                                HouseDetailRow(key: "Region", value: region)
+                                DetailRow(key: "Region", value: region)
                             }
 
                             if let coatOfArms = viewModel.coatOfArms, !coatOfArms.isEmpty {
-                                HouseDetailRow(key: "Coat of Arms", value: coatOfArms)
+                                DetailRow(key: "Coat of Arms", value: coatOfArms)
                             }
                         }
 
                         Group {
 
                             if !viewModel.titles.isEmpty {
-                                HouseDetailRow(key: "Titles", value: "• " + viewModel.titles.joined(separator: "\n• "))
+                                DetailRow(key: "Titles", value: "• " + viewModel.titles.joined(separator: "\n• "))
                             }
 
                             if let currentLord = viewModel.currentLord, !currentLord.isEmpty {
-                                HouseDetailRow(key: "Current Lord", value: currentLord)
+                                DetailRow(key: "Current Lord", value: currentLord)
                             }
 
                             if !viewModel.seats.isEmpty {
-                                HouseDetailRow(key: "Seats", value: "• " + viewModel.seats.joined(separator: "\n• "))
+                                DetailRow(key: "Seats", value: "• " + viewModel.seats.joined(separator: "\n• "))
                             }
 
                             if let heir = viewModel.heir, !heir.isEmpty {
-                                HouseDetailRow(key: "Heir", value: heir)
+                                DetailRow(key: "Heir", value: heir)
                             }
                         }
 
                         Group {
                             if let overlord = viewModel.overlord, !overlord.isEmpty {
-                                HouseDetailRow(key: "Overlord", value: overlord)
+                                DetailRow(key: "Overlord", value: overlord)
                             }
 
                             if let founded = viewModel.founded, !founded.isEmpty {
-                                HouseDetailRow(key: "Founded", value: founded)
+                                DetailRow(key: "Founded", value: founded)
                             }
 
                             if let diedOut = viewModel.diedOut, !diedOut.isEmpty {
-                                HouseDetailRow(key: "Died Out", value: diedOut)
+                                DetailRow(key: "Died Out", value: diedOut)
                             }
                         }
 
                         Group {
 
                             if !viewModel.ancestralWeapons.isEmpty {
-                                HouseDetailRow(key: "Ancestral Weapons", value: "• " + viewModel.ancestralWeapons.joined(separator: "\n• "))
+                                DetailRow(key: "Ancestral Weapons", value: "• " + viewModel.ancestralWeapons.joined(separator: "\n• "))
                             }
 
                             if !viewModel.cadetBranches.isEmpty {
-                                HouseDetailRow(key: "Cadet Branches", value: "• " + viewModel.cadetBranches.joined(separator: "\n• "))
+                                DetailRow(key: "Cadet Branches", value: "• " + viewModel.cadetBranches.joined(separator: "\n• "))
                             }
 
                             if !viewModel.swornMembers.isEmpty {
-                                HouseDetailRow(key: "Sworn Members", value: "• " + viewModel.swornMembers.joined(separator: "\n• "))
+                                DetailRow(key: "Sworn Members", value: "• " + viewModel.swornMembers.joined(separator: "\n• "))
                             }
 
                             Spacer()
@@ -98,25 +98,27 @@ struct HouseDetailView: View {
     }
 }
 
-struct HouseTitleRow: View {
+struct TitleRow: View {
     var title: String
-    var words: String
-    var image: String
+    var words: String?
+    var image: String?
 
     var body: some View {
         VStack(spacing: 0) {
-            Image(image)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 90, height: 90, alignment: .center)
-                .padding(.bottom)
+            if let image {
+                Image(image)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 90, height: 90, alignment: .center)
+                    .padding(.bottom)
+            }
 
             Text(title)
                 .defaultGOTFont(color: .darkBlue, size: 28)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
 
-            if !words.isEmpty {
+            if let words, !words.isEmpty {
                 Text(words)
                     .font(.body.smallCaps())
                     .foregroundColor(.gray)
@@ -127,7 +129,7 @@ struct HouseTitleRow: View {
     }
 }
 
-struct HouseDetailRow: View {
+struct DetailRow: View {
     var key: String
     var value: String
 

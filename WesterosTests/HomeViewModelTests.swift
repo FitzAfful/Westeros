@@ -9,11 +9,11 @@ import XCTest
 @testable import Westeros
 
 final class HousesListViewModelTests: XCTestCase {
-    var viewModel: HousesListViewModel!
+    var viewModel: HomeViewModel!
 
     override func setUpWithError() throws {
-        viewModel = HousesListViewModel()
-        viewModel.repo = MockHouseRepository()
+        viewModel = HomeViewModel()
+        viewModel.houseRepo = MockHouseRepository()
     }
 
     func testLoadHouses() throws {

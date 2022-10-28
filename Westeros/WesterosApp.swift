@@ -11,7 +11,7 @@ import SwiftUI
 struct WesterosApp: App {
     var body: some Scene {
         WindowGroup {
-            HousesListView()
+            HomeView()
         }
     }
 }
