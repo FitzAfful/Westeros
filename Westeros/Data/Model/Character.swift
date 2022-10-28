@@ -13,18 +13,22 @@ struct Character: Codable, Identifiable, Hashable {
     var gender: String
     var culture: String
     var born: String
+    var died: String
     var url: String
     var titles: [String]
     var aliases: [String]
     var father: String
     var mother: String
     var spouse: String
+    var tvSeries: [String]
     var allegiances: [String]
+    var books: [String]
+    var povBooks: [String]
     var playedBy: [String]
 
 
     private enum CodingKeys : String, CodingKey {
-        case name, gender, culture, born, url, titles, aliases, father, mother, spouse, allegiances, playedBy
+        case name, gender, culture, born, died, url, titles, aliases, father, mother, spouse, tvSeries, allegiances, books, povBooks, playedBy
     }
 }
 
